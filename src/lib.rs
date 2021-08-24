@@ -3,3 +3,6 @@
 pub mod config {
     pub mod initialization;
 }
+pub mod magnetometer {
+    pub mod magnetometer;
+}

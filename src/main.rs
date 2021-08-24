@@ -2,14 +2,13 @@
 #![no_main]
 #![no_std]
 
-use compass_2_0::config::initialization::{
-    direction, entry, init, iprintln, magnitude, switch_hal::OutputSwitch,
-};
+use compass_2_0::config::initialization::{entry, init, iprintln, switch_hal::OutputSwitch};
 
+use compass_2_0::magnetometer::magnetometer::{direction, magnitude};
 use stm32f3_discovery::stm32f3xx_hal::prelude::*;
 
 /// This program upgrades the compass functionality by providing direction(N, S, W, E, NS, etc)
-/// based on theta value and also print the magnitude of the compass.
+/// Based on theta value and also print the magnitude of the Compass.
 ///
 /// #Arguements
 /// None

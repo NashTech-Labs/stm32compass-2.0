@@ -18,6 +18,19 @@ We are also printing the Magnitude of the Magnetometer.
 
 To-Verify you need to move the board and change the direction to read different (x,y,z)axis values. 
 
+You will find out:
+
+**For theta Value:**
+
+**0 - 0.3925 => South**
+
+**0.3925 - 1.1775 => SouthEast**
+
+**1.1775 - 1.9625 => East**
+
+**1.9625 - 2.7475 => NorthEast and so on..**
+
+
 
 ## Build the Project
 **Now before building this project you need to solder your board. It will help in printing the data to itm terminal.

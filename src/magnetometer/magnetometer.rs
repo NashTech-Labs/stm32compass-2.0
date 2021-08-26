@@ -1,4 +1,3 @@
-use crate::config::initialization::init;
 use crate::config::initialization::*;
 use core::f32::consts::PI;
 use lsm303agr::UnscaledMeasurement;
@@ -9,7 +8,6 @@ use stm32f3_discovery::stm32f3xx_hal::{
     i2c::I2c,
     pac::I2C1,
 };
-use stm32f3_discovery::*;
 
 /// This function calculates the Direction of the Magnetic Field using x, y, z-axis readings.
 ///
